@@ -2,6 +2,7 @@
 ## Code execution
 The code provided in sequences_extraction.py allows to extract the aligned sequences from the BLAST results text file and save them in fasta format.
 To execute the code use:
+
 python sequence_extraction.py -input *name of the input file* -output *name of the output file*
 
 ## Additional data
