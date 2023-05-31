@@ -1,0 +1,25 @@
+###README###
+
+##Code execution##
+The code provided in sequence_extraction.py allows to extract the aligned 
+sequences from a file containing BLAST results and writes them in fasta 
+format.
+To execute the code, use:
+python sequence_extraction.py -input *input file* -output *output file*
+
+##Additional data##
+
+All the identified Terminal Inverted Repeat (TIR) sequences can be found 
+in TIR_search_results.txt file.
+
+The dataset showing horizontal transfer of HZTransib can be found in 
+aa_horizontal.fasta file.
+
+The dataset of reference tree can be found in 
+annotated_both_tir_clean.fasta file.
+
+The dataset containing both complete genes and pseudogenes can be foun in 
+annotates_pseudo.fasta file.
+ 
+The guide_tree_dataset.fasta file contains the sequences used for guide 
+tree construction.
